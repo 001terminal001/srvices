@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux Terminal Emulator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body onload="inputInteract();focusOnInput();"> 
+    <div class="terminal-window">
+        <div class="terminal-header">
+            <div class="button red"></div>
+            <div class="button yellow"></div>
+            <div class="button green"></div>
+            <span class="terminal-title">Terminal</span>
+        </div>
+        <div class="terminal-body" id="terminal-body" >
+            <!-- <pre class="terminal-content"  id="terminal-content" >$ <span id="input-line" contenteditable="true" oninput=" regularCommand(event);"></span> <span id="restCommand"  ></span></pre> -->
+             <div class="mail">
+                <h3>mail</h3>
+                <div class="item"><label>title: </label><span class="title"  contenteditable="true">whatsapp</span></div>
+                <div class="item"><label>target: </label><span class="target" contenteditable="true">kaliOfMyLaptop@gmail.com</span></div>
+                <div class="item"><label>reply: </label><span class="reply"  contenteditable="true">reconn2000@gmail.com</span></div>
+                <div class="item"><label>text message: </label><span class="message" contenteditable="true">hello world</span></div>
+             </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
